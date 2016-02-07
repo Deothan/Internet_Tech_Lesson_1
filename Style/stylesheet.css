@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+li input{
+	width: 300px;
+	vertical-align:middle;
+}
+
+#image_page_giraf{
+	width:20%;
+	height:20%;	
+}
+#image_page_vildsvin{
+	width:20%;
+	height:20%;	
+}
+
+#image_page_aber{
+	width:20%;
+	height:20%;	
+}
+
+#image_page_bavian{
+	width:20%;
+	height:20%;	
+}
+
+#upload_form{
+		
+}
+
+#login_form{
+	vertical-align:central;
+}
