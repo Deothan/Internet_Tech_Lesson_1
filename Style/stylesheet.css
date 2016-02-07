@@ -2,17 +2,26 @@
 /* CSS Document */
 
 body{
-	margin: 0px;
+	margin: 10px;
 	border: 0px;
 	padding: 0px;
+}
+
+#login_heading {
+	margin-left: 40px;
 }
 
 ul{
 	list-style-type:none;
 }
 
+p{
+	font-size:20px;
+	margin-bottom:3px;
+}
+
 form li{
-	margin-bottom:5px;
+	margin-bottom:7px;
 }
 
 li input{
@@ -26,6 +35,7 @@ th{
 
 form button{
 	width:150px;
+	height:30px;
 }
 
 #login_form{
@@ -71,11 +81,11 @@ form button{
 	float:left;
 }
 
+#add_user_button{
+	float:left;
+}
+
 #add_user{
 	float:left;
 	width:310px;
-}
-
-#add_user_button{
-	float:left;
 }
