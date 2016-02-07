@@ -11,9 +11,33 @@ ul{
 	list-style-type:none;
 }
 
+form li{
+	margin-bottom:5px;
+}
+
 li input{
+	float: right;
+}
+
+th{
+	text-align:left;
+	width: 250px;
+}
+
+form button{
+	width:150px;
+}
+
+#login_form{
 	width: 300px;
-	vertical-align:middle;
+}
+
+#upload_form{
+	width:380px;
+}
+
+#path_input{
+	width:300px;
 }
 
 #image_page_giraf{
@@ -35,10 +59,23 @@ li input{
 	height:20%;	
 }
 
-#upload_form{
-		
+#upload_button{
+	float:left;
 }
 
-#login_form{
-	vertical-align:central;
+#users_button{
+	float:left;
+}
+
+#login_button{
+	float:left;
+}
+
+#add_user{
+	float:left;
+	width:310px;
+}
+
+#add_user_button{
+	float:left;
 }
